@@ -1,0 +1,12 @@
+[package]
+name = "rs-clean-architecture"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "ch11_stable_abstraction"
+path = "ch11/stable_abstraction.rs"
+
+[dependencies]
