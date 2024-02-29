@@ -13,5 +13,9 @@ path = "ch11/stable_abstraction.rs"
 name = "ch11_factories"
 path = "ch11/factories.rs"
 
-[dependencies]
+[[bin]]
+name = "ch12_rep"
+path = "ch12/rep.rs"
 
+[dependencies]
+rust_logger_rep = {path = "./ch12/rep"}
