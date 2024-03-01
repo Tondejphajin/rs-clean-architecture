@@ -6,9 +6,19 @@ version = 3
 name = "rs-clean-architecture"
 version = "0.1.0"
 dependencies = [
+ "rust_ecommerce_ccp",
  "rust_logger_rep",
+ "rust_utils_crp",
 ]
+
+[[package]]
+name = "rust_ecommerce_ccp"
+version = "0.1.0"
 
 [[package]]
 name = "rust_logger_rep"
 version = "1.0.0"
+
+[[package]]
+name = "rust_utils_crp"
+version = "0.1.0"

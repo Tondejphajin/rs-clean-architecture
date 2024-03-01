@@ -1,3 +1,4 @@
+workspace = { members = ["ch12/crp"] }
 [package]
 name = "rs-clean-architecture"
 version = "0.1.0"
@@ -17,5 +18,15 @@ path = "ch11/factories.rs"
 name = "ch12_rep"
 path = "ch12/rep.rs"
 
+[[bin]]
+name = "ch12_ccp"
+path = "ch12/ccp.rs"
+
+[[bin]]
+name = "ch12_crp"
+path = "ch12/crp.rs"
+
 [dependencies]
 rust_logger_rep = {path = "./ch12/rep"}
+rust_ecommerce_ccp = {path = "./ch12/ccp"}
+rust_utils_crp = {path = "./ch12/crp"}
