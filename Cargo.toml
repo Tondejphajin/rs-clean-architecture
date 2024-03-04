@@ -1,4 +1,4 @@
-workspace = { members = ["ch12/crp"] }
+workspace = { members = ["ch13/crp"] }
 [package]
 name = "rs-clean-architecture"
 version = "0.1.0"
@@ -15,18 +15,18 @@ name = "ch11_factories"
 path = "ch11/factories.rs"
 
 [[bin]]
-name = "ch12_rep"
-path = "ch12/rep.rs"
+name = "ch13_rep"
+path = "ch13/rep.rs"
 
 [[bin]]
-name = "ch12_ccp"
-path = "ch12/ccp.rs"
+name = "ch13_ccp"
+path = "ch13/ccp.rs"
 
 [[bin]]
-name = "ch12_crp"
-path = "ch12/crp.rs"
+name = "ch13_crp"
+path = "ch13/crp.rs"
 
 [dependencies]
-rust_logger_rep = {path = "./ch12/rep"}
-rust_ecommerce_ccp = {path = "./ch12/ccp"}
-rust_utils_crp = {path = "./ch12/crp"}
+rust_logger_rep = {path = "./ch13/rep"}
+rust_ecommerce_ccp = {path = "./ch13/ccp"}
+rust_utils_crp = {path = "./ch13/crp"}
