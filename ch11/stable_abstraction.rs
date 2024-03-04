@@ -35,6 +35,7 @@ fn get_message_service(service_type: ServiceType) -> Box<dyn MessageService> {
     }
 }
 
+// Use the abstraction factory
 fn main() {
     let service_type = ServiceType::Email;
     let email_service = get_message_service(service_type);

@@ -1,3 +1,5 @@
+# Clean architecture examples in rust
+
 To run the code, use the command:
 
 `cargo run --bin {name of the binary}`
